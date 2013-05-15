@@ -16,10 +16,11 @@ INSTALLATION
 Need to activate extensions.
 
 settings/override/site.ini.append.php:
-		[ExtensionSettings]
-		...
-		ActiveExtensions[]=nxc_tools
-		ActiveExtensions[]=nxc_sso
+
+	[ExtensionSettings]
+	...
+	ActiveExtensions[]=nxc_tools
+	ActiveExtensions[]=nxc_sso
 
 HOW IT WORKS
 
@@ -42,4 +43,5 @@ Or
 
 In this case need to handle GET variable redirect_url in user/login.tpl
 like:
-        <input type="hidden" name="RedirectURI" value="{ezhttp( 'redirect_url', 'get' )|wash}" />
+
+	<input type="hidden" name="RedirectURI" value="{ezhttp( 'redirect_url', 'get' )|wash}" />
