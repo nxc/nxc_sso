@@ -34,8 +34,8 @@ For example, master.com, slave1.com and slave2.com
 So flow would be:
 
 1. User visits master.com and logs in
-2. After that this user visits slave1.com and he is not logged in
-3. The user clicks to link http://master.com/sso/login
+2. After that visits slave1.com and is not logged in
+3. Clicks to link http://master.com/sso/login
 4. As a result the user is already logged in on slave1.com
 
 Or
