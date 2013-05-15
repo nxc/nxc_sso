@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+    <metadata>
+        <name>NXC Single Sign-On</name>
+        <version>0.1</version>
+        <copyright>Copyright (C) 2013 NXC AS</copyright>
+        <license>GNU General Public License v2.0</license>
+        <info_url>http://github.com/nxc/nxc_sso</info_url>
+    </metadata>
+
+    <dependencies>
+        <requires>
+            <extension name="nxc_tools" />
+        </requires>
+    </dependencies>
+</software>
