@@ -13,14 +13,18 @@ REQUIREMENTS
 
 INSTALLATION
 
-Need to activate extensions.
+1. Need to activate extensions.
 
 settings/override/site.ini.append.php:
-    
+
     [ExtensionSettings]
     ...
     ActiveExtensions[]=nxc_tools
     ActiveExtensions[]=nxc_sso
+
+2. Generate autoloads
+
+    $ php ./bin/php/ezpgenerateautoloads.php -e
 
 HOW IT WORKS
 
